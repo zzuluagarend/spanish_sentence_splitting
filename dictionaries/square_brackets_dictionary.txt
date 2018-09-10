@@ -1,0 +1,66 @@
+[Aplausos]	p
+[  APLAUSOS]	p
+[APLAUSOS]	p
+[AUDIO DIFUSO]	o
+[AUDIO EN INGLÉS]	f
+[AUDIO EN PORTUGUÉS]	f
+[AUDIO INCOMPRENSIBLE]	o
+[AUDIO PORTUGUÉS]	f
+[AVIÓN PORTUGUÉS]	f
+[Bullicio]	a
+[CANTA EN INGLÉS]	f
+[CANTANDO]	a
+[CANTAN EN INGLÉS]	f
+[Chasquea los dedos]	a
+[Chifla]	a
+[DISPARO]	a
+[DOORBELL]	a
+[ el timbre suena ]	a
+[Festejan]	o
+[Gime]	a
+[Gimen]	a
+[Golpes]	a
+[Grita]	a
+[Gritan]	a
+[GRITOS]	a
+[Gruñe]	a
+[Habla en inglés]	f
+[HABLA EN INGLÉS]	f
+[HABLA EN PORTUGUÉS]	f
+[Hablan a la vez]	o
+[HABLAN A LA VEZ]	o
+[HABLAN AL UNÍSONO]	o
+[HABLANDO EN INGLÉS]	f
+[Hablan en inglés]	f
+[HABLAN EN INGLÉS]	f
+[  HABLAN PORTUGUÉS]	f
+[HABLA  OTRO IDIOMA]	f
+[Hace ruidos]	p
+[IMÁGENES]	o
+[INFORMACIÓN EN PANTALLA]	o
+[inhales]	a
+[ jadea ]	a
+[Jadea]	a
+[Kiss sound]	a
+[ ladra ]	a
+[ ladrar ]	a
+[LLANTO]	a
+[LLANTOS]	a
+[Llora]	a
+[Motor]	a
+[MÚSIC]	m
+[MUSICA]	m
+[Música]	m
+[MÚSICA]	m
+[PUBLICIDAD]	o
+[Resopla]	a
+[Ríe]	a
+[RÍE]	a
+[Ríen]	a
+[RISAS]	a
+[Silba]	a
+[Suspira]	a
+[Teléfono]	o
+[Tictac del reloj]	a
+[Tiembla]	a
+[Timbre]	a

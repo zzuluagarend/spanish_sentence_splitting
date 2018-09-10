@@ -1,0 +1,14 @@
+(877)	o
+(APLAUSOS(	p
+(AUDIO ININTELIGIBLE)	o
+(AVO)	u
+(Dog)	a
+(HABLA EN INGLÉS)	f
+(HABLA EN PORTUGUÉS)	f
+(Hermana menor)	s
+(llamando a la puerta)	a
+(  LLANTOS)	a
+(Madre)	s
+(MUSICA DE MARIACHI)	m
+(VO)	s
+(voz profunda)	o
