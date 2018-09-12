@@ -1,50 +1,30 @@
-# Canvas Template
+# Spanish Sentence Splitting
 
-## API
+The aim of this set of scripts is to take as input one Spanish file in the NewsScape dataset and return an XML-style file with one sentence per line. POS tagging and dependency information is not yet available. 
 
-### **`createCanvas(canvasElem)`**
+## How to run:
 
-takes:
-- `canvasElem`: html canvas
+### preprocess.py 
 
-returns:
-- canvas object with the following methods:
-`getRandomCoords`, `getGridCoords`, `getTwoSidedCoords` and `draw`.
+This script takes as input a NewsScape text file and extract unnecessary information. The output is a text file with header information. Currently, the ocurrence time of each block is not properly treated by the main script. 
 
+Usage: `python3 preprocess.py <input-file-name> -t <0 (recommended) or 1>`
 
-### **`canvas.getRandomCoords(numberOfElems, elemSize)`**
+### ss.rb
 
-Generates `numberOfElems` random coordinates for a canvas with elements of `elemSize`
+This script needs ruby and the package "pragmatic_segmenter". It takes a body of text and the corresponding language (two letters acording to the [ISO 639-1](https://www.tm-town.com/languages) code). It returns one sentence per line. anthe output of the preprocess.py script and returns 
 
-takes:
-- `numberOfElems` (int): the number of elemets
-- `elemSize` (int): the size of a single element
+Usage: `cat <input-file-name> | ruby ss.rb <language-code>`
 
 
-### **`canvas.getGridCoords(numberOfRows, numberOfElems, elemSize)`**
+### metadata.py
 
-takes:
-- `numberOfRows` (int): the number of rows in the grid (might create one more if the numberOfElem / rows is not an int)
-- `numberOfElems` (int): the number of elemets
-- `elemSize` (int): the size of a single element
+This script takes the output from ss.rb and returns a well-formed XML file with one sentence.
 
-
-### **`canvas.getTwoSidedCoords(numberOfRows, gap, numberOfElems, elemSize)`**
-
-takes:
-- `numberOfRows` (int): the number of rows in the grid (might create one more if the numberOfElem / rows is not an int)
-- `gap` (int): the gap between the two sides
-- `numberOfElems` (int): the number of elemets
-- `elemSize` (int): the size of a single element
+Usage: `python3 metadata.py <input-file-name>`
 
 
-### **`canvas.draw(shape, size, x, y, color)`**
 
-Draws a single element on the canvas of `shape` shape, `color` color and `size` the center of which is on coordinates `x` and `y`.
+Currently, a pipeline command is not available. 
 
-takes:
-- `shape` (string): the shape of the element ('circle', 'sqaure', 'triangle')
-- `size` (int): the size of the element
-- `x` (int): x coordinate
-- `y` (int): y coordinate
-- `color` (string): the fill color of the element
+ 
